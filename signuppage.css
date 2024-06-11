@@ -1,0 +1,44 @@
+
+    input{
+        border: none;
+        word-spacing:normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style:normal;
+        font-size: larger;
+        margin: 50px;
+        border-radius: 5px;
+        size: 30px;
+    }
+h1{
+    margin-left: 650px;
+}
+    #lastname #firstname{
+display: flex;
+flex-direction: row;
+}
+        .email #password{
+            margin-top:50px;
+     }
+    button{
+        border: none;
+        border-radius: 6px;
+        width: 100px; height: 50px;
+        font-size: larger;
+        margin-left: 650px;
+        margin-bottom: 10px;
+        background-color: mediumpurple;  
+        display:flex;
+        flex-direction:row;    
+    }
+div{
+    margin-left: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 750px; width: 750px;
+    padding-right:20px;
+    padding-left: 20px;
+    display:grid;
+    grid-template-columns:100px,350px;
+    background-color: rgba(132, 96, 151, 0.551);
+    align-items: center;
+    }
